@@ -58,7 +58,7 @@ export const ShowDialog = ({ bgColor, question }: Props) => {
                 variant="contained"
                 onClick={handleClose}
               >
-                Solicítalo aquí
+                Resgistrate aquí
               </SCButton>
             </>
           )}
