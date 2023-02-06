@@ -1,5 +1,5 @@
 import { IQuestion, QuestionType } from "../redux/features/forms/interface";
-
+export const POLICY = "https://tiwala.com.co/co/politica_tratamiento_datos/";
 export const documentOptions = [
   {
     value: "CC",

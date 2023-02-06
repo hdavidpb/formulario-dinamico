@@ -12,12 +12,8 @@ export const SuccesCreditoDialog = () => {
         <h1>¡Felicidades!</h1>
         <h1>{answers["name"]}</h1>
       </div>
-      <p>
-        Hemos recibido tu información y pronto uno de nuestros asesores te
-        contactará para hacer realidad tus sueños.
-      </p>
-
-      <p>¡Porque juntos, hoy es posible!</p>
+      <p>Hemos recibido tu información , gracias por registrarte.</p>
+      <p>Pronto obtendras nuevos beneficios</p>
     </>
   );
 };
