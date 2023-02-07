@@ -176,20 +176,6 @@ export const questions: IQuestion[] = [
     question: "¿Cómo es tu número de teléfono?",
     type: QuestionType.number,
   },
-
-  {
-    isDone: false,
-    key: "company",
-    question: "¿Cuál es tu nombre de la empresa?",
-    type: QuestionType.text,
-  },
-  {
-    isDone: false,
-    key: "sector",
-    question: "¿Cual es el sector de la empresa?",
-    type: QuestionType.text,
-  },
-
   {
     isDone: false,
     key: "authorization",
