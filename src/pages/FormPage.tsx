@@ -31,7 +31,7 @@ const FormPage = () => {
 
               <>
                 {isSendedForm && (
-                  <ShowDialog bgColor="#043766" question={question} />
+                  <ShowDialog bgColor="#6b0197" question={question} />
                 )}
               </>
             </Questions>

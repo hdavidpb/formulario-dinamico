@@ -12,16 +12,13 @@ export const sendDataWebHook = createAsyncThunk(
       const dataJson = {
         ...answers,
         phoneNumber: +answers["phoneNumber"],
-        // cedula: +answers["cedula"],
-        // amount: +answers["amount"],
       };
-      console.log(dataJson);
-      // const data = await Axios.post(
-      //   "https://ex75tdpoe2.execute-api.us-east-2.amazonaws.com/envio_zoho",
-      //   dataJson
-      // );
-      // console.log(answers);
-      // console.log(data.data);
+
+      const data = await Axios.post(
+        "https://p018kwwcmb.execute-api.us-east-2.amazonaws.com/dev/webhook_tiwala",
+        dataJson
+      );
+      console.log(data.data);
     } catch (error) {
       console.error(error);
     }
