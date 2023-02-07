@@ -9,8 +9,6 @@ const initialState: IInitialState = {
     name: "",
     email: "",
     phoneNumber: "",
-    company: "",
-    sector: "",
     authorization: false,
   },
   index: 0,

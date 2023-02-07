@@ -15,7 +15,7 @@ export const sendDataWebHook = createAsyncThunk(
       };
 
       const data = await Axios.post(
-        "https://p018kwwcmb.execute-api.us-east-2.amazonaws.com/dev/webhook_tiwala",
+        "https://pan5zaqgfl.execute-api.us-east-2.amazonaws.com/dynamo/clientes_tiwala",
         dataJson
       );
       console.log(data.data);
